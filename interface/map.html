@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a33ff300c9d9782bce8ef6028b56f1f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3a33ff300c9d9782bce8ef6028b56f1f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3a33ff300c9d9782bce8ef6028b56f1f = L.map(
+                "map_3a33ff300c9d9782bce8ef6028b56f1f",
+                {
+                    center: [13.0827, 80.2707],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2477e2c5dcbf0ed71caff3e09af9c77d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3a33ff300c9d9782bce8ef6028b56f1f);
+        
+    
+            var marker_c87583a3988b50a3242b00d358b202a6 = L.marker(
+                [13.0827, 80.2707],
+                {}
+            ).addTo(map_3a33ff300c9d9782bce8ef6028b56f1f);
+        
+    
+            var icon_6ce33abeafc767d4a3081ebb1f0d6991 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c87583a3988b50a3242b00d358b202a6.setIcon(icon_6ce33abeafc767d4a3081ebb1f0d6991);
+        
+    
+        var popup_1471f1342d43645e27fe29d0e507524b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_863e931a46bc5bf948bc52dbe6a6919e = $(`<div id="html_863e931a46bc5bf948bc52dbe6a6919e" style="width: 100.0%; height: 100.0%;">Chennai</div>`)[0];
+                popup_1471f1342d43645e27fe29d0e507524b.setContent(html_863e931a46bc5bf948bc52dbe6a6919e);
+            
+        
+
+        marker_c87583a3988b50a3242b00d358b202a6.bindPopup(popup_1471f1342d43645e27fe29d0e507524b)
+        ;
+
+        
+    
+    
+            var marker_ace393f12d2de86433ef8588a58533ca = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(map_3a33ff300c9d9782bce8ef6028b56f1f);
+        
+    
+            var icon_9dde8a9e644eb16042eb95ee8a0da91f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "map-marker", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ace393f12d2de86433ef8588a58533ca.setIcon(icon_9dde8a9e644eb16042eb95ee8a0da91f);
+        
+    
+        var popup_35e6a4afe42774e6de230cbd6bd0cbdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34b182eefbbf285e15c164157284cf59 = $(`<div id="html_34b182eefbbf285e15c164157284cf59" style="width: 100.0%; height: 100.0%;">Bangalore</div>`)[0];
+                popup_35e6a4afe42774e6de230cbd6bd0cbdd.setContent(html_34b182eefbbf285e15c164157284cf59);
+            
+        
+
+        marker_ace393f12d2de86433ef8588a58533ca.bindPopup(popup_35e6a4afe42774e6de230cbd6bd0cbdd)
+        ;
+
+        
+    
+    
+            var poly_line_878e9da5992ceb7a16ecbcf8f52bf53c = L.polyline(
+                [[13.0827, 80.2707], [12.9716, 77.5946]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3a33ff300c9d9782bce8ef6028b56f1f);
+        
+    
+            poly_line_878e9da5992ceb7a16ecbcf8f52bf53c.bindTooltip(
+                `<div>
+                     HOTELS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
