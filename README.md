@@ -1,15 +1,14 @@
 # E-Commerce-Website
 
-Welcome to our E-Commerce Website project! This web application is designed to provide a seamless user experience for online shopping, featuring advanced order placement, global shipment tracking, and delivery management. The backend is powered by Python and MySQL, while PowerBI is used for analytics to ensure efficient e-commerce operations and customer satisfaction.
+# Shipment Management Application
+
+## Overview
+The Shipment Management Application is a web-based tool developed to streamline the process of managing shipments, tracking their status, and analyzing shipment-related data.
 
 ## Features
+- **User Authentication**: Users can log in securely using their credentials.
+- **Customer and Courier Record Management**: Allows insertion of customer and courier records into the database.
+- **Shipment Tracking**: Provides functionality to track the status of shipments using unique track IDs.
+- **OTP Authentication**: Implements OTP-based authentication for secure user access.
+- **Data Visualization**: Utilizes Power BI for data visualization, enabling users to analyze various aspects of shipments.
 
-- **Order Placement:** Users can easily place orders for their desired products.
-- **Global Shipment Tracking:** Track the shipment status in real-time on a global scale.
-- **Delivery Management:** Efficiently manage the delivery process to enhance customer satisfaction.
-
-## Technologies Used
-
-- **Development** Python
-- **Database:** MySQL
-- **Analytics:** PowerBI
